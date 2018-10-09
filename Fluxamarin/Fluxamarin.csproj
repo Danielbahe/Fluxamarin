@@ -1,7 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Version>1.0.0-alpha</Version>
+    <Authors>Daniel Bautista</Authors>
+    <Company />
+    <RepositoryUrl>https://github.com/Danielbahe/Fluxamarin</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Danielbahe/Fluxamarin</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Danielbahe/Fluxamarin/blob/master/LICENSE.md</PackageLicenseUrl>
+    <Copyright>https://github.com/Danielbahe/Fluxamarin/blob/master/LICENSE.md</Copyright>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Xamarin, Android, iOS, UWP, flux, redux, fluxamarin</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
