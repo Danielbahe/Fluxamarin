@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<views:StatefulWidget x:TypeArguments="models:AppState" xmlns="http://xamarin.com/schemas/2014/forms"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                            xmlns:views="clr-namespace:Fluxamarin.Views;assembly=Fluxamarin"
+                            xmlns:models="clr-namespace:Example.Models;assembly=Example"
+                            x:Class="Example.Views.CounterWidget">
+    <views:StatefulWidget.Content>
+        <StackLayout>
+            <Button Text="+ with no state" Clicked="Button_OnClicked"/>
+            <Label Text="{Binding Counter}" />
+            <Button Text="+ with action and state" Clicked="Button_OnClickedWithState"/>
+        </StackLayout>
+    </views:StatefulWidget.Content>
+</views:StatefulWidget>
